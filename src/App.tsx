@@ -10,6 +10,7 @@ import Onboarding from "./pages/Onboarding";
 import Products from "./pages/Products";
 import AddProduct from "./pages/AddProduct";
 import RecordSale from "./pages/RecordSale";
+import SalesHistory from "./pages/SalesHistory";
 import Expenses from "./pages/Expenses";
 import AddExpense from "./pages/AddExpense";
 import Reports from "./pages/Reports";
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/products" element={<Products />} />
           <Route path="/products/add" element={<AddProduct />} />
           <Route path="/sales/record" element={<RecordSale />} />
+          <Route path="/sales" element={<SalesHistory />} />
           <Route path="/expenses" element={<Expenses />} />
           <Route path="/expenses/add" element={<AddExpense />} />
           <Route path="/reports" element={<Reports />} />
